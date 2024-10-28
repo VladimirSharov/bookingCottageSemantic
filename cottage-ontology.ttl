@@ -1,0 +1,60 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://mycottagebooking.org/ontology#> .
+
+:Cottage rdf:type owl:Class .
+:Theme rdf:type owl:Class .
+:Location rdf:type owl:Class .
+
+:locatedNear rdf:type owl:ObjectProperty ;
+    rdfs:domain :Cottage ;
+    rdfs:range :Location .
+
+:inspiredBy rdf:type owl:ObjectProperty ;
+    rdfs:domain :Cottage ;
+    rdfs:range :Theme .
+
+:hasCapacity rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Cottage ;
+    rdfs:range xsd:integer .
+
+:hasBedrooms rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Cottage ;
+    rdfs:range xsd:integer .
+
+:hasLakeDistance rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Cottage ;
+    rdfs:range xsd:integer .
+
+:hasCityDistance rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Cottage ;
+    rdfs:range xsd:integer .
+
+:description rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Cottage ;
+    rdfs:range xsd:string .
+
+:hasImageURL rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Cottage ;
+    rdfs:range xsd:string .
+
+:TheSun rdf:type :Theme ;
+    :name "The Sun" ;
+    :description "Bright, optimistic, and close to nature." .
+
+:TheLovers rdf:type :Theme ;
+    :name "The Lovers" ;
+    :description "Romantic, intimate, and harmonious setting." .
+
+:TheChariot rdf:type :Theme ;
+    :name "The Chariot" ;
+    :description "Dynamic, energetic, and centrally located." .
+
+:TheHermit rdf:type :Theme ;
+    :name "The Hermit" ;
+    :description "Secluded, peaceful, and perfect for introspection." .
+
+:Strength rdf:type :Theme ;
+    :name "Strength" ;
+    :description "Resilient, sturdy, and rooted in history." .
