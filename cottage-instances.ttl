@@ -1,0 +1,57 @@
+@prefix : <http://mycottagebooking.org/cottage#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:LakeMichiganView rdf:type :Cottage ;
+    :name "Lake Michigan View Cottage" ;
+    :address "2200 North Lake Shore Drive, Chicago" ;
+    :hasCapacity 4 ;
+    :hasBedrooms 2 ;
+    :hasLakeDistance 100 ;
+    :hasCityDistance 3000 ;
+    :hasImageURL "http://mycottagebooking.org/images/lake_michigan_view.jpg" ;
+    :theme "The Sun" ;
+    :description "Bright and energizing, close to Lake Michigan, perfect for inspiration." .
+
+:GoldCoastRetreat rdf:type :Cottage ;
+    :name "Gold Coast Retreat" ;
+    :address "1245 North State Parkway, Chicago" ;
+    :hasCapacity 2 ;
+    :hasBedrooms 1 ;
+    :hasLakeDistance 500 ;
+    :hasCityDistance 1000 ;
+    :hasImageURL "http://mycottagebooking.org/images/gold_coast_retreat.jpg" ;
+    :theme "The Lovers" ;
+    :description "Romantic getaway in Chicago’s Gold Coast neighborhood." .
+
+:MagnificentMileHouse rdf:type :Cottage ;
+    :name "Magnificent Mile House" ;
+    :address "830 North Michigan Avenue, Chicago" ;
+    :hasCapacity 6 ;
+    :hasBedrooms 3 ;
+    :hasLakeDistance 700 ;
+    :hasCityDistance 500 ;
+    :hasImageURL "http://mycottagebooking.org/images/magnificent_mile.jpg" ;
+    :theme "The Chariot" ;
+    :description "Dynamic and spacious, at the heart of the bustling Magnificent Mile." .
+
+:PilsenHideaway rdf:type :Cottage ;
+    :name "Pilsen Hideaway" ;
+    :address "18th Street and Halsted, Chicago" ;
+    :hasCapacity 3 ;
+    :hasBedrooms 1 ;
+    :hasLakeDistance 6000 ;
+    :hasCityDistance 5000 ;
+    :hasImageURL "http://mycottagebooking.org/images/pilsen_hideaway.jpg" ;
+    :theme "The Hermit" ;
+    :description "Quiet, cozy hideaway with vibrant local art in Pilsen." .
+
+:BridgeportHaven rdf:type :Cottage ;
+    :name "Bridgeport Haven" ;
+    :address "35th Street and Morgan, Chicago" ;
+    :hasCapacity 4 ;
+    :hasBedrooms 2 ;
+    :hasLakeDistance 4500 ;
+    :hasCityDistance 3000 ;
+    :hasImageURL "http://mycottagebooking.org/images/bridgeport_haven.jpg" ;
+    :theme "Strength" ;
+    :description "A resilient home base in the working-class heart of Chicago." .
