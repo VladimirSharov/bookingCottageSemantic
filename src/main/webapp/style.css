@@ -44,3 +44,31 @@ button {
 .button-group {
     text-align: right;
 }
+
+.cottage-result {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.cottage-result h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.cottage-result table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.cottage-result td {
+    padding: 5px 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.cottage-result img {
+    border-radius: 4px;
+}
